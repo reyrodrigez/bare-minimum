@@ -6,7 +6,7 @@ Simple boilerplate using sass, es2015 and [jest](https://facebook.github.io/jest
 
 `$ npm install`
 
-`$ npm run build:watch`
+`$ npm run dev`
 
 ### unit testing
 
