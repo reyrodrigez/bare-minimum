@@ -7,7 +7,7 @@
     "build:js": "./node_modules/.bin/browserify src/js/script.js -o dist/js/boundle.js -t [ babelify --presets [ es2015 ] ]",
     "build:css": "./node_modules/.bin/node-sass src/sass/ -o dist/css",
     "build": "parallelshell 'npm run build:js' 'npm run build:css'",
-    "build:watch": "watch 'npm run build' src",
+    "dev": "watch 'npm run build' src",
     "test": "jest --verbose"
   },
   "author": "",
